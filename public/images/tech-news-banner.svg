@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4a2d1c"/>
+      <stop offset="55%" stop-color="#9a5f38"/>
+      <stop offset="100%" stop-color="#e0a880"/>
+    </linearGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#fdf5ef" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <g font-family="Verdana, Geneva, sans-serif">
+    <text x="80" y="260" font-size="72" font-weight="700" fill="#fdf5ef">Radar Tech</text>
+    <text x="80" y="320" font-size="30" fill="#f9e6d4">Resumo diário de notícias de tecnologia</text>
+    <g fill="#fdf5ef" fill-opacity="0.9" font-size="22">
+      <text x="80" y="400">Inteligência Artificial</text>
+      <text x="80" y="440">Engenharia &amp; Arquitetura de Software</text>
+      <text x="80" y="480">Cloud</text>
+    </g>
+    <circle cx="1030" cy="180" r="90" fill="#fdf5ef" fill-opacity="0.08"/>
+    <circle cx="1100" cy="320" r="50" fill="#fdf5ef" fill-opacity="0.10"/>
+  </g>
+</svg>
